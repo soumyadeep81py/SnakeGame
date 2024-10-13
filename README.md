@@ -1,27 +1,36 @@
 Snake Game
-This is a basic implementation of the classic Snake Game built using Python and the Pygame library.
+This repository contains a simple implementation of the classic Snake Game using Python and the Pygame library.
 
 How to Play
-Use the arrow keys to control the direction of the snake.
-The snake will grow longer when it eats the food, which appears randomly on the screen.
-The game ends if the snake hits the boundaries of the screen or if it collides with itself.
+Goal: Control the snake to eat food that appears randomly on the screen.
+Controls: Use the arrow keys (Up, Down, Left, Right) to navigate the snake.
+Game Over: The game ends if the snake:
+Runs into itself
+Hits the boundaries of the screen
+Each time the snake eats food, it grows longer, and the game becomes more challenging.
+
 Requirements
-To run the game, you need to install the Pygame library. If you don't have it installed, you can easily install it using pip:
+To run this game, you need the following:
+
+Python 3.x installed on your system.
+The Pygame library.
+Installing Pygame
+If you don't have the Pygame library installed, you can easily install it using pip:
 
 bash
 Copy code
 pip install pygame
-Make sure you have Python installed (preferably Python 3.x). You can download Python from the official website: python.org.
+Running the Game
+Once you have Python and Pygame installed, follow these steps to play the game:
 
-How to Run the Game
-Clone or download the repository.
-Open a terminal or command prompt in the directory containing the SnakeGame.py file.
-Run the following command:
+Clone or download the repository to your local machine.
+Navigate to the folder where the SnakeGame.py file is located.
+Run the game by executing the following command in your terminal or command prompt:
 bash
 Copy code
 python SnakeGame.py
-Game Features
-Simple and easy-to-use controls.
-Randomly spawning food for the snake to eat.
-The snake grows with each piece of food consumed.
-Game over when the snake hits the wall or itself.
+Features
+Simple and intuitive controls using arrow keys.
+The snake grows longer each time it eats food.
+Randomly spawning food.
+The game ends if the snake hits a wall or collides with itself.
